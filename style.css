@@ -35,5 +35,9 @@ input[type="checkbox"]::before {
   border-radius: 20px;
   box-shadow: 0 0 0 1px #232323;
   transform: scale(0.98, 0.96);
-  transition: 5s;
+  transition: 0.5s;
+}
+
+input:checked[type="checkbox"]::before {
+  left: 40px;
 }
