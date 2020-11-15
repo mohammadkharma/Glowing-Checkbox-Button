@@ -41,3 +41,20 @@ input[type="checkbox"]::before {
 input:checked[type="checkbox"]::before {
   left: 40px;
 }
+
+input[type="checkbox"]::after {
+  content: "";
+  position: absolute;
+  top: calc(50% - 2px);
+  left: 65px;
+  width: 4px;
+  height: 4px;
+  background: linear-gradient(0deg, #6b6b6b, #000);
+  border-radius: 50%;
+  transition: 0.5s;
+}
+
+input:checked[type="checkbox"]::after {
+  background: #63cdff;
+  left: 105px;
+}
