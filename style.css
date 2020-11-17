@@ -4,6 +4,10 @@ body {
   background: #292929;
 }
 
+body.dark {
+  background: white;
+}
+
 .center {
   position: absolute;
   top: 50%;
